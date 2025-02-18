@@ -2,8 +2,8 @@ import requests
 from openpyxl import Workbook ,load_workbook
 import pandas as pd
 
-API_TOKEN = "<Your API Key>"
-BASE_URL = "https://api.wise.com"
+API_TOKEN = "7ef7c059-8118-4753-9031-e9f84b914447"  # This API key is only for testing purposes
+BASE_URL = "https://api.sandbox.transferwise.tech"  # Use: https://api.wise.com for real data
 header = {"Authorization": f"Bearer {API_TOKEN}"}
 
 def connect(endpoint:str) -> list:
